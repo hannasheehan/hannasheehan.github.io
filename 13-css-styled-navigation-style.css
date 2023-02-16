@@ -1,0 +1,134 @@
+/* CSS in progress - update each session */
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: magenta;
+}
+
+h2 {
+    color:rgb(27, 159, 207)
+}
+
+/* ADDED styling here for list menu demo */
+nav ul {
+    display: block;
+    background-color: gainsboro;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+    color: navy;
+    width: 100%;
+    /* justify-content: space-evenly; */
+    /* display: flex; */
+ }
+
+nav li {
+    display: inline;
+    padding: 20px;
+
+}
+
+/* ADDED styling here for hover for menu-from-UL-list demo */
+
+nav li:hover {
+    background-color:yellow
+}
+
+
+div {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 4%;
+    /* display: inline-block; */
+}
+
+figcaption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9em;
+    font-style: italic;
+    color: navy;
+}
+
+em {
+    color: magenta;
+    background-color: yellow;
+}
+
+/* styling the pup's table here */
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    background-color: #dddddd;
+    padding: 10px;   
+    border-radius: 25px;  
+}
+
+th, td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding: 6px;  
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    color: gray;
+    text-align: center;
+}
+
+/* putting our class styling below element styling */
+
+.intro-text {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.listing {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    background-color: paleturquoise;
+    width:fit-content;
+    padding: 20px;
+    border-radius: 25px; 
+}
+
+/* .puppy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:larger;
+    font-style: italic;
+}
+
+.kitten {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+} */
+
+/* styling <a href=""> links with pseudo code */
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: olivedrab;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
